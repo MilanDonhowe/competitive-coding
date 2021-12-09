@@ -20,7 +20,7 @@ for y, row in enumerate(lavacave):
 print("Part 1", risk_level)
 
 # Part 2: Find largest basin!
-def model(x, y):
+def model(x: int, y: int) -> None:
   # Just a BFS until we hit 9 or out-of-bounds
   traversed = set()
   basin_key = (x,y)

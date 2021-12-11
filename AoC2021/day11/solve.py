@@ -41,8 +41,6 @@ def simulate(prev_state: List[List[int]]) -> Tuple[List[List[int]], int]:
   
   return (next_state, len(flashed_octopi))
 
-from pprint import pprint
-
 # Part 1
 flashes = 0
 current_state = init_state 

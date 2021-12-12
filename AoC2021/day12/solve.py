@@ -70,7 +70,7 @@ def paths_p1(g: Dict[str, Set[str]]) -> int:
 
 # I originally tried some recursive formulation, but quickly exceeded python's max recursion depth, so instead
 # I tried to unwind the call-stack into an stack data-structure a-la some green-threading library. This is very
-# inefficient and took about 10 seconds seconds on my machine to run, which isn't ideal, but it gets the job 
+# inefficient and took about 10 seconds on my machine to run, which isn't ideal, but it gets the job 
 # done for this problem.
 def paths_p2(g: Dict[str, Set[str]]) -> int:
   id = 0
